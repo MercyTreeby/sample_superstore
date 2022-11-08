@@ -1,0 +1,66 @@
+
+
+============================== 2022-10-26 01:00:42.041822 | 07e7a672-1889-4b25-8aea-151727f24bbc ==============================
+[0m01:00:42.041827 [info ] [MainThread]: Running with dbt=1.4.0-a1
+[0m01:00:42.042397 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/mercy.shao/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'project_name': 'sample', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m01:00:42.042601 [debug] [MainThread]: Tracking: tracking
+[0m01:00:42.053479 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11149cc40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11149e4d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11149d180>]}
+[0m01:00:42.054051 [info ] [MainThread]: Creating dbt configuration folder at /Users/mercy.shao/.dbt
+[0m01:00:42.054965 [debug] [MainThread]: Starter project path: /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/dbt/include/starter_project
+[0m01:01:02.507369 [info ] [MainThread]: Profile sample written to /Users/mercy.shao/.dbt/profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m01:01:02.507794 [info ] [MainThread]: 
+Your new dbt project "{self.project_name}" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  {self.docs_url}
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  {self.slack_url}
+
+Happy modeling!
+
+[0m01:01:02.507979 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111f2fd30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11149d600>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11149efb0>]}
+[0m01:01:02.508199 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2022-10-26 01:03:39.449900 | 5e7665d8-315e-461f-b139-d5562e3a1330 ==============================
+[0m01:03:39.449908 [info ] [MainThread]: Running with dbt=1.4.0-a1
+[0m01:03:39.450369 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/mercy.shao/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'config_dir': False, 'which': 'debug', 'indirect_selection': 'eager'}
+[0m01:03:39.450535 [debug] [MainThread]: Tracking: tracking
+[0m01:03:39.458407 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10886f9a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10886ff10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10886e4d0>]}
+[0m01:03:39.477173 [debug] [MainThread]: Executing "git --help"
+[0m01:03:39.491177 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m01:03:39.491527 [debug] [MainThread]: STDERR: "b''"
+[0m01:03:39.491795 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10895f9d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10895ce50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10895ccd0>]}
+[0m01:03:39.492063 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2022-11-07 05:58:47.048637 | c3280566-11c7-47f0-96f8-65906bafba4a ==============================
+[0m05:58:47.048641 [info ] [MainThread]: Running with dbt=1.4.0-a1
+[0m05:58:47.049334 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/mercy.shao/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m05:58:47.049505 [debug] [MainThread]: Tracking: tracking
+[0m05:58:47.059250 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105e5c700>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105e5f040>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105e5fca0>]}
+[0m05:58:59.158794 [debug] [MainThread]: Starter project path: /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/dbt/include/starter_project
+[0m05:59:13.125762 [info ] [MainThread]: 
+Your new dbt project "{self.project_name}" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  {self.docs_url}
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  {self.slack_url}
+
+Happy modeling!
+
+[0m05:59:13.126296 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105f1bf10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105e5fe50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105e5e3b0>]}
+[0m05:59:13.126613 [debug] [MainThread]: Flushing usage events
